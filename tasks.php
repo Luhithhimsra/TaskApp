@@ -1,4 +1,6 @@
 <?php
+// Tasks page — admin view showing all tasks with filtering and pagination
+
 session_start();
 if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'admin') {
     header("Location: login.php?error=Unauthorized"); exit();
