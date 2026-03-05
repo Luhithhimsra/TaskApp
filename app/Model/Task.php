@@ -2,8 +2,7 @@
 // Includes CRUD, soft delete, restore, filtering and pagination
 // Tasks page — admin view showing all tasks with filtering and pagination
 // Supports filtering by status, priority and keyword search
-// Tasks page — admin view showing all tasks with filtering and pagination
-// Supports filtering by status, priority and keyword search
+
 <?php
 
 // ── INSERT ────────────────────────────────────────────────────────────────────
