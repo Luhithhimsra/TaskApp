@@ -1,3 +1,5 @@
+// Task Model — handles all database queries for tasks
+// Includes CRUD, soft delete, restore, filtering and pagination
 <?php
 
 // ── INSERT ────────────────────────────────────────────────────────────────────
