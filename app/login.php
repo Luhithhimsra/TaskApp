@@ -1,3 +1,6 @@
+// Login page — handles session authentication for admin and employee roles
+// Passwords are verified using password_verify() with bcrypt hashing
+
 <?php 
 session_start();
 if (isset($_POST['user_name']) && isset($_POST['password'])) {
