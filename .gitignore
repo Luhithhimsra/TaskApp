@@ -1,0 +1,10 @@
+# Sensitive files
+DB_connection.php
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
