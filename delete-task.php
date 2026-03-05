@@ -1,4 +1,5 @@
 <?php
+// Soft delete handler — marks task as deleted without removing from database
 session_start();
 if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'admin') {
     header("Location: login.php?error=Unauthorized"); exit();
