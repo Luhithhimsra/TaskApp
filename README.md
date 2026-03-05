@@ -1,3 +1,5 @@
+<!-- TaskFlow Pro — Task Management System built with PHP, PDO and MySQL -->
+
 # TaskFlow Pro
 
 A task management web app built with PHP, PDO, and MySQL. It supports two roles — admin and employee — and handles the full task lifecycle from creation through to completion, including a trash and restore system.
