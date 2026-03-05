@@ -1,4 +1,5 @@
 <?php
+// Restore handler — recovers soft deleted tasks back to active state
 session_start();
 if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'admin') {
     header("Location: login.php?error=Unauthorized"); exit();
