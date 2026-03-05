@@ -1,5 +1,3 @@
-# Sensitive files DB
-DB_connection.php
 
 # OS files
 .DS_Store
