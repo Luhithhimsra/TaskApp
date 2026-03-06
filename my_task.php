@@ -1,4 +1,7 @@
 <?php
+// Employee task view — shows only tasks assigned to the logged in employee
+// Includes filtering by status, priority and keyword search
+
 session_start();
 if (!isset($_SESSION['role']) || !isset($_SESSION['id'])) {
     header("Location: login.php?error=Unauthorized"); exit();
