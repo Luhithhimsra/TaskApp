@@ -1,4 +1,6 @@
 <?php
+// Dashboard — shows task statistics for admin and employee roles
+// Admin sees all task counts, employee sees only their own tasks
 session_start();
 if (!isset($_SESSION['role']) || !isset($_SESSION['id'])) {
     header("Location: login.php?error=Please login first"); exit();
