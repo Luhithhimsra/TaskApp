@@ -1,4 +1,6 @@
 <?php
+// Edit task form — admin only, allows updating title, description, priority, due date and assignment
+
 session_start();
 if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'admin') {
     header("Location: login.php?error=Unauthorized"); exit();
