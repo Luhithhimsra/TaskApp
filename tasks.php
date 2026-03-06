@@ -1,6 +1,6 @@
 <?php
 // Tasks page — admin view showing all tasks with filtering and pagination
-
+// Trash page — shows all soft deleted tasks with option to restore them
 session_start();
 if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'admin') {
     header("Location: login.php?error=Unauthorized"); exit();
