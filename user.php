@@ -1,4 +1,5 @@
 <?php 
+// User management — admin only, shows all employees with options to add, edit and delete
 session_start();
 if (isset($_SESSION['role']) && isset($_SESSION['id']) && $_SESSION['role'] == "admin") {
     include "DB_connection.php";
