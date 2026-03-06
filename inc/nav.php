@@ -1,3 +1,4 @@
+// Navigation sidebar — shows different menu items based on user role (admin or employee)
 <nav class="side-bar">
     <div class="user-p">
         <img src="img/user.png" alt="user">
