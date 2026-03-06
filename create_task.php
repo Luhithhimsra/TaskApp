@@ -1,4 +1,5 @@
 <?php
+// Create task form — admin only, includes priority and employee assignment
 session_start();
 if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'admin') {
     header("Location: login.php?error=Unauthorized"); exit();
